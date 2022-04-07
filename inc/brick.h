@@ -13,7 +13,6 @@
  ********************************************
 */
 
-#include <stdio.h>
-
-void bc_usage(int err);
-void bc_print_opt(char* opt, char* job, FILE* std);
+#ifdef BC_INCLUDES
+#include <brick/usage.h>
+#endif
