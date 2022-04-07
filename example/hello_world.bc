@@ -1,0 +1,4 @@
+
+func main: uint argc, string argv
+    println "Hello, World!"    
+end
