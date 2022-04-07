@@ -1,9 +1,9 @@
 /********************************************
  *
- * FILE - main.c
+ * FILE - inc/brick/usage.h
  *
  * by Leonard Steinhoff
- * created at: Do Apr 06 19:28 JST 2022
+ * created at: Do Apr 07 15:46 JST 2022
  *
  * licensed under MIT
  *
@@ -13,11 +13,5 @@
  ********************************************
 */
 
-#include <brick/usage.h>
-
-int main(int argc, char** argv)
-{
-    bc_usage(1);    
-}
-
-
+void bc_usage(int err);
+void bc_print_opt(char* opt, char* job);

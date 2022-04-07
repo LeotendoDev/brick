@@ -1,5 +1,3 @@
 #!/bin/bash
 
-cd bin
-cmake ..
-make
+gcc main.c usage.c -I inc -Wall -o bin/brick
