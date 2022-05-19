@@ -1,0 +1,6 @@
+loop 0 to 1000 with i
+	check i % 3 or i % 5
+		say i
+	end
+end
+
